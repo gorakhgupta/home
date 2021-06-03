@@ -1,0 +1,84 @@
+
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+  margin: 0;
+  font-family: 'Baloo Tammudu 2', cursive;
+  background-color: black;
+  color:white;
+
+}
+body{
+  background-color: black;
+}
+.secNavDiv{
+  margin-right: 200px;
+}
+#g:hover{
+  color:black;
+  text-shadow: aqua;
+  background-color: white;
+
+}
+.copyright{
+
+  justify-content: center;
+}
+.intro{
+
+  margin-right:100px;
+  
+}
+.mypic img{
+  margin-bottom: 20px;
+}
+
+
+@media (min-width:832px)
+{
+  .mypic{
+    display: flex;
+  }
+  .homepage{
+    display: flex;
+    width:100%;
+  }
+  .mypic img{
+    width:400px;
+    float: right;
+  height: 450px;
+  }
+  .intro{
+    height:350px;
+    width:390px;
+    margin-right: 50px;
+    /* border:1px solid white; */
+  }
+  .mypic{
+    width:800px;
+   height: 550px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin-left: 350px;
+   /* border: 1px solid white; */
+   
+   }
+   .copyright{
+
+    width:700px;
+    height:20px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top:100px;
+    left : 300px;
+    /* border:1px solid white; */
+    outline: none;
+  }
+  
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover {background-color: black; color:red;}
+#dp:hover {background-color: yellowgreen;}
+
