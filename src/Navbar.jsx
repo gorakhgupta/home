@@ -34,7 +34,7 @@ function Navbar() {
           </NavLink>
           <ul className="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
             <li><a style={{color:'white'}} className="dropdown-item bg-dark  " id="dp"  href="https://github.com/gorakhgupta/Digital-Clock01">SnakeGame</a></li>
-            <li><a style={{color:'white'}} className="dropdown-item "  id="dp" href="https://github.com/gorakhgupta/Digital-Clock01">Animation Bounce</a></li>
+            <li><a style={{color:'white'}} className="dropdown-item "  id="dp" href="https://gorakhgupta.github.io/bounce_animation/">Animation Bounce</a></li>
          
             <li><a style={{color:'white'}}  className="dropdown-item " id="dp"  href="https://github.com/gorakhgupta/Digital-Clock01">Digital Clock</a></li>
           </ul>
