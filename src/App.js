@@ -8,6 +8,7 @@ import About from './About';
 import Contact from './Contact';
 import Project from './Project';
 import Footer from './Footer';
+// import bg from './bg.jfif';
 // import './index.css';
 
 function App() {

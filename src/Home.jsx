@@ -11,6 +11,11 @@ function Home() {
 <div className="intro p-0">
 <h1 className="pt-4">Hi,This is <b>Gorakh</b></h1>
 <h1 className="Job" style={{color:'red'}}><strong style={{color:'red'}}>Web Developer.</strong></h1>
+<div>
+  {/* <button href="https://google.com" className="btn btn-outline-danger border-1" >Know More</button>
+   */}
+   <NavLink to="/about"><button className="btn btn-outline-danger">Know More</button></NavLink>
+</div>
 
 </div>
 <img src={mypic} className="pt-3" />
